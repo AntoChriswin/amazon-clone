@@ -17,6 +17,14 @@ function Header() {
             auth.signOut();
         }
     }
+    
+    const handleCartClick = (e) => {
+        if (!user) {
+            e.preventDefault();
+            alert('Please sign in to view your cart');
+        }
+    }
+    
   return (
     <nav className = "header">
         <Link to ="/">
@@ -36,10 +44,10 @@ function Header() {
                 </div>
             </Link>
 
-            <Link to="/" className='header_link'>
+            <Link to="/orders" className='header_link'>
                 <div className='header_option'>
-                    <span className='header_option1'>returns</span>
-                    <span className='header_option2'>order in</span>
+                    <span className='header_option1'>Your</span>
+                    <span className='header_option2'>Orders</span>
                 </div>
             </Link>
 
@@ -51,10 +59,10 @@ function Header() {
             </Link>
         </div>
 
-        <Link to={"/Checkout"} className='header_link' >
-            <div className='header_optionbasket'>
+        <Link to={user ? "/checkout" : "#"} className='header_link' onClick={handleCartClick}>
+            <div className='header_optionBasket'>
                 <ShoppingBasketIcon className="header_ShoppingBasketIcon"/>
-                <span className='header_option2 header_basketcount'>{basket?.length}</span>
+                <span className='header_option2 header_basketcount'>{user ? basket?.length : 0}</span>
             </div>
         </Link>
 

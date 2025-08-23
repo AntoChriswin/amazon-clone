@@ -50,6 +50,7 @@
     color: #111;
     height: 30px;
     width: 100%;
+    cursor: pointer;
 }
 
 .login_registerbutton{
