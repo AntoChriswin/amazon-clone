@@ -12,51 +12,77 @@ function Home() {
             <div className='home_row'>
                 <Product
                 id="12321341"
-                title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-                price={11.96}
-                rating={5}
-                image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+                title="Wrishay Wall Stickers DIY Vinyl Marble Wallpaper Peel and Stick Waterproof Wallpaper for Home Kitchen Countertop Cabinet Oil Proof Kitchen"
+                price={129}
+                rating={4}
+                image="https://m.media-amazon.com/images/I/61JRR4vg9mL._SL1024_.jpg"
                 />
                 <Product
                 id="49538094"
-                title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+                title="Anna Creations Self Adhesive Waterproof & Oil Proof Marble Texture Wallpaper PVC Vinyl Wall Stickers Papers "
                 price={239.0}
                 rating={4}
-                image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+                image="https://m.media-amazon.com/images/I/81hMIgas4XL._SL1500_.jpg"
                 />
+                <Product
+                id="49538077"
+                title="Barebeauty 60CM X 200CM Kitchen Wallpaper Oil Proof and Heat Resistant Aluminium Backsplash Wallpaper"
+                price={400.0}
+                rating={4}
+                image="https://m.media-amazon.com/images/I/41TYUakK0tL._SX300_SY300_QL70_FMwebp_.jpg"
+                />
+                
             </div>
 
             <div className='home_row'>
                 <Product
                 id="4903850"
-                title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-                price={199.99}
-                rating={3}
-                image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+                title="JBL C50HI, Wired in Ear Headphones with Mic, One Button Multi-Function Remote, Lightweight & Comfortable fit (Black)"
+                price={500}
+                rating={4}
+                image="https://m.media-amazon.com/images/I/21eLORtanGL._SX300_SY300_QL70_FMwebp_.jpg"
                 />
                 <Product
                 id="23445930"
-                title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-                price={98.99}
+                title="Ant Esports KM1610 LED Keyboard and Mouse Combo,"
+                price={699}
                 rating={5}
-                image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+                image="https://m.media-amazon.com/images/I/41nv4lCdoTL._SX300_SY300_QL70_FMwebp_.jpg"
                 />
                 <Product
                 id="3254354345"
-                title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-                price={598.99}
+                title="Ant Esports H520W Lightweight Gaming Over Ear Wired Headphones with Mic| 3.5MM Jack |50 MM Drivers"
+                price={689}
                 rating={4}
-                image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+                image="https://m.media-amazon.com/images/I/71BC1mi6uDL._SL1500_.jpg"
                 />
+            </div>
+
+            <div className='home_row'>
+                <Product
+                id="4903851"
+                title="Ant PC Gaming Pc Argentine AL14400 Core i5 14400 |B760 Chipset WiFi + Bluetooth|16GB DDR5 5200Mhz | RTX 3050 8GB |1TB M.2 Nvme SSD|120MM Fan CPU Cooler|Mid Tower RGB Cabinet |Windows 11 Home Trial"
+                price={82095}
+                rating={3}
+                image="https://m.media-amazon.com/images/I/61668k-1VzL._SL1200_.jpg"
+                />
+                <Product
+                id="23445931"
+                title="CHIST Gaming Desktop PC, Ryzen 5 5500, 32GB DDR4, 1TB NVMe SSD, RTX 3050 6GB, Liquid Cooling with RGB Fans Wi-FI Bluetooth,Windows 11 pro."
+                price={56000}
+                rating={4}
+                image="https://m.media-amazon.com/images/I/61Cth40a4dL._SL1308_.jpg"
+                />
+
             </div>
 
              <div className='home_row'>
                 <Product
                 id="90829332"
-                title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-                price={1094.98}
-                rating={4}
-                image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+                title="Samsung 49 (124 cm) Odyssey G9 Curved Gaming Monitor|Dual QHD 5120 x 1440|144Hz|1ms|VESA DisplayHDR 600|FreeSync Premium Pro|HDR10+ Gaming|PBP|PIP|HAS|LS49FG910EWXXL|Black"
+                price={93899}
+                rating={5}
+                image="https://m.media-amazon.com/images/I/61bromOifBL._SL1500_.jpg"
                 />
             </div>
         </div>
